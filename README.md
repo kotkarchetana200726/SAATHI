@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# SAATHI — Dementia Care Platform
 
-# Run and deploy your AI Studio app
+SAATHI is an AI-powered, voice-first, and culturally adaptive cognitive assistance platform designed for elderly individuals and family caregivers, supporting offline-first PWA operation and multilingual features.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/901feb21-ee20-42d0-83b4-808ccbcc091e
+## Features
+- **Patient Mode**: Simple 4-action high-contrast interface designed for elderly users.
+- **Caregiver Portal**: Medication compliance tracking, real-time sync, and emergency SOS routing.
+- **Offline-First**: PWA architecture with IndexedDB/LocalStorage persistence.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js (v18+)
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+2. Set up environment variables in `.env`:
+   ```bash
+   GEMINI_API_KEY=""
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
