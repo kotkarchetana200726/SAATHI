@@ -60,6 +60,29 @@ Dementia and mild cognitive decline present significant challenges for elderly i
 
 ---
 
+## 🔑 Required Credentials & Setup Instructions
+
+No API keys are required for the current prototype.
+
+The current version of SAATHI does not require:
+- API keys
+- Database credentials
+- Login credentials
+- Secret environment variables
+
+### 🎙️ Microphone Permission
+Voice-based features may require microphone permission.
+
+When the browser asks for microphone access:
+- Select **Allow** → Microphone Access
+
+> *Note: If microphone permission is blocked, voice-based functionality may not work correctly.*
+
+### 🔒 Security
+Do not add private API keys, passwords, tokens, or other secrets directly to the source code or GitHub repository. If future versions require external APIs, use environment variables (`.env`).
+
+---
+
 ## ⚙️ How to Install & Run Locally
 
 ### Prerequisites
