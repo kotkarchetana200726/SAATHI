@@ -60,6 +60,9 @@ Dementia and mild cognitive decline present significant challenges for elderly i
 
 ---
 
+
+
+
 ## 🔑 Required Credentials & Setup Instructions
 
 No API keys are required for the current prototype.
