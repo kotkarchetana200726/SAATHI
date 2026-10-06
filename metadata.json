@@ -1,0 +1,6 @@
+{
+  "name": "SAATHI - Cognitive Gaming & Memory Assistance",
+  "description": "Cognitive gaming and memory assistance platform for elderly individuals and family caregivers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

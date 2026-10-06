@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: #FAF8F5;
+    color: #1F2937;
+  }
+}
+
+/* Elderly-friendly large focus indicator for keyboard / stylus / accessibility */
+:focus-visible {
+  outline: 3px solid #2D6A4F;
+  outline-offset: 3px;
+}
+
+/* Calm smooth transitions */
+* {
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D6A4F" />
+      <stop offset="100%" stop-color="#1B4332" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#95D5B2" />
+      <stop offset="100%" stop-color="#74C69D" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#081c15" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background with rounded squircles -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  
+  <!-- Outer gentle circle -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#D8F3DC" stroke-width="8" stroke-dasharray="16 12" opacity="0.35"/>
+  
+  <!-- Supporting Hands / Caring leaf holding mind & memory -->
+  <g filter="url(#shadow)" transform="translate(0, 10)">
+    <!-- Gentle stylized caring cradle / leaves -->
+    <path d="M140 330 C160 380, 220 410, 256 410 C292 410, 352 380, 372 330 C390 286, 360 250, 320 270 C280 290, 256 320, 256 320 C256 320, 232 290, 192 270 C152 250, 122 286, 140 330 Z" fill="url(#accentGrad)"/>
+    
+    <!-- Central Mind / Blooming Lotus & Memory Brain -->
+    <path d="M256 120 C210 120, 175 155, 175 200 C175 240, 205 270, 240 285 L256 295 L272 285 C307 270, 337 240, 337 200 C337 155, 302 120, 256 120 Z" fill="#FBFBF7"/>
+    
+    <!-- Memory Nodes / Warm glowing synapses inside the mind -->
+    <circle cx="225" cy="185" r="14" fill="#40916C"/>
+    <circle cx="287" cy="185" r="14" fill="#40916C"/>
+    <circle cx="256" cy="225" r="16" fill="#D8F3DC"/>
+    <circle cx="256" cy="155" r="12" fill="#E8E3F5"/>
+    
+    <!-- Synaptic connection paths -->
+    <path d="M225 185 L256 155 L287 185 L256 225 L225 185" stroke="#2D6A4F" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Small spark of memory recall -->
+  <circle cx="256" cy="225" r="7" fill="#E76F51"/>
+</svg>
