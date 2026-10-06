@@ -6,7 +6,8 @@
 
 ## 🌐 Live Deployment Link
 
-> 🔗 **Deployment Link:** [Insert your deployment link here] *(e.g., https://saathi-care.vercel.app)*
+> SAATHI is deployed using **vercel**.
+## Live demo  https://saathi-opal.vercel.app/
 
 ---
 
